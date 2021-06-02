@@ -10,4 +10,4 @@ eureka:
     fetch-registry: true
 config:
   info: 
-    version: 1
+    version: 2
