@@ -1,6 +1,8 @@
+server:
+  port: 3355
 eureka:
   instance:
-    instance-id: server-config
+    instance-id: server-client
     prefer-ip-address: true
     hostname: localhost
   client:
