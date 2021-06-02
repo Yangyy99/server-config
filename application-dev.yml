@@ -13,3 +13,9 @@ eureka:
 config:
   info: 
     version: 3
+#暴露端点,动态刷新，需要post 发送localhost  ../actuator/refresh
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
